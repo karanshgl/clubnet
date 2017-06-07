@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'api.apps.ApiConfig'
+    
 ]
 
 MIDDLEWARE = [
@@ -126,6 +127,7 @@ STATIC_URL = '/static/'
 
 # Rest framework settings
 REST_FRAMEWORK = {
+    
     'DEFAULT_PERMISSION_CLASSES': (
         'rest_framework.permissions.IsAuthenticated',
     ),
